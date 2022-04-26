@@ -380,3 +380,81 @@ footer .container .social_media i:hover{
         padding: 0 25px; 
     }
 }
+@media screen and (max-width:900px){
+    .img-head .container .head-img{
+        grid-column-start: span 2;
+    }
+    .img-head .container .head-img .img_primero img{
+        height: 200px;
+    }
+    .img-head .container .head-img .img_primero img,
+    .img-head .container .head-img .img_segundo img{
+        width: 200px;
+        margin: auto;
+        
+    }
+    .img-head .container .inform{
+        grid-column-start: span 2;
+    }
+    .img-head{
+        height: 65vh;
+        padding: 60px 0;
+    }
+    .about .container .vision,
+    .about .container .mision{
+        grid-column-start: span 2;
+    }
+    .steps .container{
+        grid-template-columns: repeat(2,1fr);
+        justify-content: center;
+    }
+    .steps .container .third_step{
+        grid-column-start: span 2;
+        padding: 20px 0;
+    }
+    .marks .img-marks{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media screen and (max-width:700px){
+    .marks .img-marks{
+        grid-template-columns: repeat(1,1fr);
+    }    
+    .steps .container{
+        grid-template-columns: repeat(1,1fr);
+        justify-content: center;
+    }
+    .steps .container .step{
+        padding: 25px 0;
+    }
+    .steps .container .third_step{
+        grid-column-start: span 1;
+    }
+    footer .container{
+        grid-template-columns: repeat(1,1fr);
+    }
+    footer .container .social_media{ 
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    footer .container img{
+        margin: 20px auto;
+    }
+    .about .description{
+        font-size: 15px;
+        width: 400px;
+    }
+    .img-head .container .inform h1{
+        font-size: 40px;
+    }
+}
+@media screen and (max-width:700px){
+    .img-head .container .head-img .img_primero img,
+    .img-head .container .head-img .img_segundo img{
+        width: 150px;
+    }
+    .img-head .container .head-img .img_primero img{
+        height: 150px;
+    }
+}
