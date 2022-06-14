@@ -208,6 +208,24 @@ a{
     font-weight: 200;
     line-height: 25px;
 }
+.about .Videos .container{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+.about .Videos .video h2{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    color: #5e738e;
+}
+.about .Videos .video iframe{
+    width: 100%;
+    margin: 25px 0;
+    border-radius: 15px;
+}
 /******************* Steps ******************/
 .steps{
     padding: 30px 0;
@@ -378,6 +396,18 @@ footer .container .social_media i:hover{
     }
     .moon{
         padding: 0 25px; 
+    }
+    .about .Videos .container{
+        width: 80%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 25px;
+    }
+    .about .Videos .video iframe{
+        width: 100%;
+        margin: 25px 0;
+        border-radius: 15px;
     }
 }
 @media screen and (max-width:900px){
